@@ -39,4 +39,4 @@ O Scientific Calculator, é uma calculadora online que nós permite realizarmos 
 Esse projeto está sob a licença MIT.
 
 ---
-Feito durante a minha jornada de aprendizagem.
+Feito durante a minha jornada de aprendizagem no desenvolvimento web.
