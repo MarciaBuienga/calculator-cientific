@@ -4,16 +4,15 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="calculator.css">
+        <link rel="stylesheet" href="./css/calculator.css">
         <title>Scientific Calculator</title>
     </head>
 <body>
+    <h1 style="text-align: center;">Scientific Calculator, do your operation here.</h1>
     <div class="cal-container">
-        
         <div class="display">
             <input type="text" id="screen" readonly placeholder="0">
         </div>
-
         <!--Calculator buttons-->
         <div class="keys">
             <p>
@@ -37,7 +36,6 @@
                 <input type="button" value="(" class="btn btn-sign" onclick="press('(')" > 
                 <input type="button" value=")" class="btn btn-sign" onclick="press(')')"> 
             </p>
-
             <p style="margin-top: 30px">
                 <input type="button" value="7"   class="btn btn-num" onclick="press(7)">
                 <input type="button" value="8"   class="btn btn-num" onclick="press(8)"> 
@@ -67,13 +65,8 @@
                 <input type="button" value="="   class="btn btn-opera" onclick="calculate()"> 
             </p>
         </div>
-
     </div>
-    </div>
-
-    
-    <script src="calculator.js"></script>
-    
-
+    </div>    
+    <script src="./js/calculator.js"></script>
 </body>
 </html>
